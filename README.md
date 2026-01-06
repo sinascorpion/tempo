@@ -31,7 +31,7 @@ pnpm -v
 
 # Get bot
 ```bash
-git clone https://github.com/sinascorpion/diamante.git
+git clone https://github.com/sinascorpion/tempo.git
 ```
 ```bash
 cd tempo-bot/
