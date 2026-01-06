@@ -34,7 +34,7 @@ pnpm -v
 git clone https://github.com/sinascorpion/tempo.git
 ```
 ```bash
-cd tempo-bot/
+cd tempo-bot
 ```
 
 # Replace your wallet private key with 0x
