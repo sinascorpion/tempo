@@ -48,7 +48,7 @@ function showHeader() {
     clearTerminal();
     printLine('=', 'magenta');
     console.log(chalk.bold.magenta('              TEMPO AUTO BOT  - V2.0  '));
-    console.log(chalk.bold.white('              CREATED BY KAZUHA | VIP ONLY'));
+    console.log(chalk.bold.white('              CREATED BY sinascorpion | Telegram: @irdropper'));
     printLine('=', 'magenta');
     console.log('');
 }
@@ -161,7 +161,7 @@ async function main() {
                     printLine('=', 'green');
                     console.log(chalk.bold.green('                    GOODBYE'));
                     console.log(chalk.bold.white('       Thanks for using TEMPO BOT V2!'));
-                    console.log(chalk.bold.white('          Created by Kazuha with love'));
+                    console.log(chalk.bold.white('          Created by sinascorpion with love'));
                     printLine('=', 'green');
                     process.exit(0);
                     break;
@@ -181,4 +181,5 @@ async function main() {
 main().catch(err => {
     log('error', `Fatal Error: ${err.message}`);
     process.exit(1);
+
 });
